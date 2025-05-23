@@ -1,0 +1,19 @@
+@font-face {
+    font-family: DubaiBold;
+    src: url("../Font/Dubai-Bold.ttf");
+}
+
+@font-face {
+    font-family: DubaiLight;
+    src: url("../Font/Dubai-Light.ttf");
+}
+
+@font-face {
+    font-family: DubaiMedium;
+    src: url("../Font/Dubai-Medium.ttf");
+}
+
+@font-face {
+    font-family: DubaiRegular;
+    src: url("../Font/Dubai-Regular.ttf");
+}

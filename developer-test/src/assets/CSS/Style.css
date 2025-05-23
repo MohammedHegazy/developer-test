@@ -1,0 +1,155 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: var(--font-family-regular);
+}
+
+#app {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-bold);
+}
+
+.icon-click {
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid var(--secondary-text);
+}
+
+footer p,
+footer a {
+    font-family: var(--font-family-light);
+}
+
+.footer-link {
+    position: relative;
+    color: var(--secondary-text);
+    text-decoration: none;
+    font-family: var(--font-family-light);
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+
+.footer-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.footer-link:hover::after {
+    transform: scaleX(1);
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-social-media {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-social-media:hover .footer-icon {
+    transform: scale(1.3);
+    filter: brightness(1.2);
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .margin-top {
+        margin-top: 200px;
+    }
+}
+
+
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    overflow: hidden;
+    font-family: var(--font-family-regular);
+}
+
+.animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #000000, #333333, #000000);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    z-index: 0;
+}
+
+.login-box {
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    border-radius: 12px;
+    animation: slideIn 1s ease;
+    width: 100%;
+    max-width: 400px;
+    z-index: 1;
+}
+
+.basket-icon svg {
+    color: var(--special-section-color);
+}
+
+.title {
+    font-family: var(--font-family-bold);
+}
+
+.login-button {
+    background-color: var(--special-section-color);
+    color: var(--primary-text);
+    font-family: var(--font-family-bold);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #d4cf2d;
+}
+
+.register-link {
+    font-family: var(--font-family-light);
+}
+
+.register-link a {
+    color: var(--primary-text);
+    text-decoration: underline;
+}

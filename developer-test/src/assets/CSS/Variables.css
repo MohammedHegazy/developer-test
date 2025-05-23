@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --primary-text: #000000;
+    --secondary-text: #ffffff;
+    --special-section-color: #ede635;
+    --font-family-bold: "DubaiBold";
+    --font-family-light: "DubaiLight";
+    --font-family-medium: "DubaiMedium";
+    --font-family-regular: "DubaiRegular";
+}
